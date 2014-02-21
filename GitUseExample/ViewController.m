@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - IBActions
+
+- (IBAction)clickTheButton:(id)sender {
+    NSLog(@"This is a Git tutorial");
+}
+
 @end
